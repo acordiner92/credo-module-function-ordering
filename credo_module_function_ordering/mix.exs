@@ -6,7 +6,14 @@ defmodule CredoModuleFunctionOrdering.MixProject do
       app: :credo_module_function_ordering,
       version: "0.1.0",
       deps: deps(),
-      elixirc_paths: elixirc_paths(Mix.env())
+      elixirc_paths: elixirc_paths(Mix.env()),
+      description: "Credo rule for ordering of different functions types within a module",
+      package: [
+        maintainers: ["acac99"],
+        licenses: ["MIT"],
+        maintainers: ["acacwork99@gmail.com"],
+        links: %{"Github" => "https://github.com/acac99/credo-module-function-ordering"}
+      ]
     ]
   end
 
