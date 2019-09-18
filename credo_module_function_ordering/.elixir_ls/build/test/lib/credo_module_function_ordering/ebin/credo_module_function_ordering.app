@@ -1,0 +1,10 @@
+{application,credo_module_function_ordering,
+             [{applications,[kernel,stdlib,elixir]},
+              {description,"credo_module_function_ordering"},
+              {modules,['Elixir.CredoModuleFunctionOrdering.Rule',
+                        'Elixir.Test.Helper.CredoModuleFunctionOrdering.Application',
+                        'Elixir.Test.Helper.CredoModuleFunctionOrdering.CheckCase',
+                        'Elixir.Test.Helper.CredoModuleFunctionOrdering.FilenameGenerator',
+                        'Elixir.Test.Helper.CredoModuleFunctionOrdering.SourceFileCase']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
