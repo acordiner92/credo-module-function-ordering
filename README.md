@@ -10,7 +10,7 @@ by adding `credo_module_function_ordering` to your list of dependencies in `mix.
 ```elixir
 def deps do
   [
-    {:credo_module_function_ordering, "~> 0.1.0"}
+    {:credo_module_function_ordering, "~> 0.2.0"}
   ]
 end
 ```
